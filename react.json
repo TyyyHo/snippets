@@ -41,6 +41,14 @@
     ],
     "description": "react typescript function component with props"
   },
+  "import useEffect": {
+    "scope": "javascriptreact, typescriptreact",
+    "prefix": "ime",
+    "body": [
+      "import { useEffect } from 'react'"
+    ],
+    "description": "import useEffect"
+  },
   "useEffect": {
     "scope": "javascriptreact, typescriptreact",
     "prefix": "effect",
@@ -51,6 +59,14 @@
       ""
     ],
     "description": "react useEffect"
+  },
+  "import useState": {
+    "scope": "javascriptreact, typescriptreact",
+    "prefix": "ims",
+    "body": [
+      "import { useState } from 'react'"
+    ],
+    "description": "import useState"
   },
   "useState": {
     "scope": "javascriptreact",
@@ -67,6 +83,14 @@
       "const [$1, set${1/(.*)/${1:/capitalize}/}] = useState<$2>($3)"
     ],
     "description": "react typescript useState"
+  },
+  "import useReducer": {
+    "scope": "javascriptreact, typescriptreact",
+    "prefix": "imu",
+    "body": [
+      "import { useReducer } from 'react'"
+    ],
+    "description": "import useReducer"
   },
   "useReducer": {
     "scope": "javascriptreact",
