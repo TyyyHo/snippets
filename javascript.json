@@ -1,0 +1,12 @@
+{
+  	"arrow function": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact, ",
+		"prefix": "af",
+		"body": [
+			"export const ${TM_FILENAME_BASE/(.*)/${1}/} = () => {",
+			"",
+			"}"
+		],
+		"description": "react useEffect"
+	},
+}
