@@ -1,5 +1,5 @@
 {
-  	"arrow function": {
+	"arrow function": {
 		"scope": "javascript, javascriptreact, typescript, typescriptreact, ",
 		"prefix": "af",
 		"body": [
@@ -8,5 +8,15 @@
 			"}"
 		],
 		"description": "javascript arrow function"
+	},
+	"function": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact, ",
+		"prefix": "fn",
+		"body": [
+			"function $1 () {",
+			"",
+			"}"
+		],
+		"description": "javascript function"
 	},
 }
