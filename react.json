@@ -1,19 +1,14 @@
 {
-  "zustand store": {
-    "scope": "javascript, typescript",
-    "prefix": "zs",
+  "Function component for layer": {
+    "scope": "typescriptreact",
+    "prefix": "layer",
     "body": [
-      "import { create } from 'zustand'",
       "",
-      "export type ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = {",
-      "",
-      "}",
-      "",
-      "export const use${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/} = create<${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}>((set) => ({",
-      "",
-      "}));"
+      "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} ({ children, customStyle }: Readonly<{ children: React.ReactNode; customStyle?: string }>) {",
+      "  return <section className={`\\${customStyle}`}>{children}</section>",
+      "}"
     ],
-    "description": "zustand function"
+    "description": "react typescript function component for layer."
   },
   "Function component": {
     "scope": "typescriptreact",
@@ -41,14 +36,6 @@
     ],
     "description": "react typescript function component with props"
   },
-  "import useEffect": {
-    "scope": "javascriptreact, typescriptreact",
-    "prefix": "ime",
-    "body": [
-      "import { useEffect } from 'react'"
-    ],
-    "description": "import useEffect"
-  },
   "useEffect": {
     "scope": "javascriptreact, typescriptreact",
     "prefix": "effect",
@@ -59,14 +46,6 @@
       ""
     ],
     "description": "react useEffect"
-  },
-  "import useState": {
-    "scope": "javascriptreact, typescriptreact",
-    "prefix": "ims",
-    "body": [
-      "import { useState } from 'react'"
-    ],
-    "description": "import useState"
   },
   "useState": {
     "scope": "javascriptreact",
@@ -84,14 +63,6 @@
     ],
     "description": "react typescript useState"
   },
-  "import useReducer": {
-    "scope": "javascriptreact, typescriptreact",
-    "prefix": "imu",
-    "body": [
-      "import { useReducer } from 'react'"
-    ],
-    "description": "import useReducer"
-  },
   "useReducer": {
     "scope": "javascriptreact",
     "prefix": "reducer",
@@ -108,4 +79,20 @@
     ],
     "description": "react typescript useReducer"
   },
+  "zustand store": {
+    "scope": "javascript, typescript",
+    "prefix": "zs",
+    "body": [
+      "import { create } from 'zustand'",
+      "",
+      "type ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = {",
+      "",
+      "}",
+      "",
+      "export const use${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/} = create<${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}>((set) => ({",
+      "",
+      "}));"
+    ],
+    "description": "zustand function"
+  }
 }
