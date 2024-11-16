@@ -7,16 +7,16 @@
 			"",
 			"}"
 		],
-		"description": "javascript arrow function"
+		"description": "arrow function"
 	},
 	"function": {
 		"scope": "javascript, javascriptreact, typescript, typescriptreact, ",
 		"prefix": "fn",
 		"body": [
-			"function $1 () {",
+			"function $0 () {",
 			"",
 			"}"
 		],
-		"description": "javascript function"
-	},
+		"description": "function"
+	}
 }
