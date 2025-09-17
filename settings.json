@@ -1,0 +1,49 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.linkedEditing": true,
+  "editor.fontSize": 17,
+  "prettier.printWidth": 100,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "always"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "tailwind-fold.autoFold": false,
+  "git.autofetch": true,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "chat.editor.fontSize": 14,
+  "markdown.preview.fontSize": 12,
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vscodeGitCommit.variables": {
+    "prefix": "keke"
+  },
+  "workbench.tree.stickyScrollMaxItemCount": 8,
+  "workbench.colorTheme": "Default Dark+",
+  "emmet.preferences": {},
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.tabCompletion": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "windsurf.enableConfig": {
+    "*": true
+  },
+  "windsurf.autoExecutionPolicy": "off",
+  "windsurf.explainAndFixInCurrentConversation": true,
+  "windsurf.cascadeOpenOnReload": true,
+  "windsurf.autocompleteSpeed": "fast",
+  "git-graph.contextMenuActionsVisibility": {
+    "*": true
+  },
+  "git.ignoreRebaseWarning": true,
+  "git.replaceTagsWhenPull": true
+}
